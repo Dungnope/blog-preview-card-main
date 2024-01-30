@@ -38,6 +38,7 @@ main {
 .card:hover {
     transform: translate(-4px, -4px);
     box-shadow: 17px 17px 0 var(--text__title-color);
+    cursor: pointer;
 }
 
 .card__img {
@@ -69,7 +70,6 @@ main {
 
 .card:hover .card__title {
     color: var(--primary-color);
-    cursor: pointer;
 }
 
  .card__features {
