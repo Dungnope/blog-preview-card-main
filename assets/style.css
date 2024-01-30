@@ -67,7 +67,7 @@ main {
     transition: color 0.18s ease-in-out;
 }
 
-.card__title:hover {
+.card:hover .card__title {
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -84,6 +84,7 @@ main {
 
 .card__personal-information p {
     font-weight: 800;
+    font-size: 14px;
 }
 
 .card__avatar {
